@@ -1,0 +1,22 @@
+body{
+  .slick-slide{
+  display: block;
+  opacity: .1;
+  transition-delay: 0s;
+  transition-duration: 0.2s;
+  transition-property: opacity;
+  transition-timing-function: ease-out;
+  background-color: green; 
+}
+
+/*.slick-slide.slick-active{*/
+.slick-slide.slick-current{
+  display: block;	
+  opacity: 1;
+  transition-delay: 0.3s;
+  transition-duration: 0.2s;
+  transition-property: opacity;
+  transition-timing-function: ease-in;
+  background-color: yellow; 	
+}
+}
